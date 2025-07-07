@@ -28,8 +28,21 @@ GameLocalization/
     GameLocalization.Persistence.Postgres/   # PostgreSQL persistence
   frontend/
     gamelocalization_frontend/      # Frontend (React + TypeScript)
+      ├── src/
+      │   ├── api/                  # API clients (axios)
+      │   ├── hooks/                # Custom React hooks
+      │   ├── pages/                # Page components (e.g., ProjectPage)
+      │   ├── utils/                # Utility functions and types
+      │   ├── App.tsx               # Main app component
+      │   └── main.tsx              # Entry point
+      ├── public/                   # Static assets
+      ├── index.html                # HTML template
+      ├── package.json              # Frontend dependencies
+      ├── tailwind.config.js        # Tailwind CSS config
+      └── ...                       # Other config files
   docker-compose.yaml               # Docker orchestration
 ```
+
 ---
 
 ## ER-model
