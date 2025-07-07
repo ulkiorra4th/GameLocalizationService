@@ -105,41 +105,6 @@ Swagger UI:
 
 ---
 
-## API Usage Examples
-
-### Get all projects
-```http
-GET /api/v1/projects
-```
-
-### Create a new key
-```http
-POST /api/v1/keys
-Content-Type: application/json
-{
-  "projectId": 1,
-  "name": "START_GAME"
-}
-```
-
-### Get translations for a key
-```http
-GET /api/v1/translations?keyId=1
-```
-
-### Update translation
-```http
-PUT /api/v1/translations
-Content-Type: application/json
-{
-  "keyId": 1,
-  "languageId": 2,
-  "value": "Начать игру"
-}
-```
-
----
-
 ## Technologies
 
 - **Backend:** ASP.NET Core 8, PostgreSQL, EF Core, Serilog, Swagger, Docker
