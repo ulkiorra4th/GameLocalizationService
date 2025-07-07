@@ -2,6 +2,9 @@
 
 Game Localization is a platform for managing the localization of game projects. It provides a centralized system for storing, editing, and translating game texts, supporting multiple languages and projects, with a convenient web interface and REST API.
 
+![image](https://github.com/user-attachments/assets/cf07c083-ac03-4250-8eb5-a5897f287d6e)
+
+
 ---
 
 ## Features
