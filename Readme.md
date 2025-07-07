@@ -60,7 +60,7 @@ GameLocalization/
 
 ```bash
 git clone <repository-url>
-cd GameLocalization
+cd GameLocalizationService
 ```
 
 ### 2. Run with Docker
