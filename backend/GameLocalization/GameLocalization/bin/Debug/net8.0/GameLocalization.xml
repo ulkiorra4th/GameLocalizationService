@@ -1,0 +1,210 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GameLocalization</name>
+    </assembly>
+    <members>
+        <member name="T:GameLocalization.Controllers.v1.KeysController">
+            <summary>
+            Translation keys.
+            </summary>
+        </member>
+        <member name="M:GameLocalization.Controllers.v1.KeysController.#ctor(GameLocalization.Application.Services.Interfaces.IKeysService,Microsoft.Extensions.Logging.ILogger{GameLocalization.Controllers.v1.KeysController})">
+            <summary>
+            Translation keys.
+            </summary>
+        </member>
+        <member name="M:GameLocalization.Controllers.v1.KeysController.Get(System.Guid,System.Int32,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="projectId"></param>
+            <param name="page"></param>
+            <param name="pageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GameLocalization.Controllers.v1.KeysController.GetById(System.Guid,System.Guid)">
+            <summary>
+            
+            </summary>
+            <param name="projectId"></param>
+            <param name="keyId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GameLocalization.Controllers.v1.KeysController.Create(System.Guid,GameLocalization.Application.Dto.Key.KeyDto)">
+            <summary>
+            Creates a new key in a project
+            </summary>
+            <param name="projectId"></param>
+            <param name="dto"></param>
+            <returns>Guid of the created key</returns>
+        </member>
+        <member name="M:GameLocalization.Controllers.v1.KeysController.Update(System.Guid,System.Guid,GameLocalization.Application.Dto.Key.KeyDto)">
+            <summary>
+            
+            </summary>
+            <param name="projectId"></param>
+            <param name="keyId"></param>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GameLocalization.Controllers.v1.KeysController.Delete(System.Guid,System.Guid)">
+            <summary>
+            
+            </summary>
+            <param name="projectId"></param>
+            <param name="keyId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GameLocalization.Controllers.v1.KeysController.Search(System.Guid,System.String,System.Int32,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="projectId"></param>
+            <param name="query"></param>
+            <param name="page"></param>
+            <param name="pageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="T:GameLocalization.Controllers.v1.LanguagesController">
+            <summary>
+            Translation languages.
+            </summary>
+        </member>
+        <member name="M:GameLocalization.Controllers.v1.LanguagesController.#ctor(GameLocalization.Application.Services.Interfaces.ILanguagesService,Microsoft.Extensions.Logging.ILogger{GameLocalization.Controllers.v1.LanguagesController})">
+            <summary>
+            Translation languages.
+            </summary>
+        </member>
+        <member name="M:GameLocalization.Controllers.v1.LanguagesController.GetSharedLanguages">
+            <summary>
+            Gets global languages
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GameLocalization.Controllers.v1.LanguagesController.Create(GameLocalization.Application.Dto.Language.CreateLanguageDto)">
+            <summary>
+            Creates a new language
+            </summary>
+            <param name="dto">Adding language</param>
+            <returns>Guid of created language</returns>
+        </member>
+        <member name="M:GameLocalization.Controllers.v1.LanguagesController.Delete(GameLocalization.Application.Dto.Language.DeleteLanguageDto)">
+            <summary>
+            Deletes custom language
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GameLocalization.Controllers.v1.LanguagesController.GetAvailable(System.Guid)">
+            <summary>
+            Gets available languages for project
+            </summary>
+            <param name="projectId">The identifier of the project</param>
+            <returns>Collection of languages.</returns>
+        </member>
+        <member name="M:GameLocalization.Controllers.v1.LanguagesController.AddToProject(System.Guid,System.Guid)">
+            <summary>
+            Adds language to project
+            </summary>
+            <param name="projectId"></param>
+            <param name="languageId"></param>
+            <returns></returns>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="M:GameLocalization.Controllers.v1.LanguagesController.RemoveFromProject(System.Guid,System.Guid)">
+            <summary>
+            Removes language from the project
+            </summary>
+            <param name="projectId"></param>
+            <param name="languageId"></param>
+            <returns></returns>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="T:GameLocalization.Controllers.v1.ProjectsController">
+            <summary>
+            By default, there is a Demo Project in system. You cannot create a new one.
+            </summary>
+        </member>
+        <member name="M:GameLocalization.Controllers.v1.ProjectsController.#ctor(GameLocalization.Application.Services.Interfaces.IProjectsService,Microsoft.Extensions.Logging.ILogger{GameLocalization.Controllers.v1.ProjectsController})">
+            <summary>
+            By default, there is a Demo Project in system. You cannot create a new one.
+            </summary>
+        </member>
+        <member name="M:GameLocalization.Controllers.v1.ProjectsController.GetAll">
+            <summary>
+            Gets all projects
+            </summary>
+            <returns>Project</returns>
+        </member>
+        <member name="M:GameLocalization.Controllers.v1.ProjectsController.Get(System.Guid)">
+            <summary>
+            Gets the project by id
+            </summary>
+            <param name="projectId"></param>
+            <returns>Project</returns>
+        </member>
+        <member name="M:GameLocalization.Controllers.v1.ProjectsController.Update(System.Guid,GameLocalization.Application.Dto.Project.ProjectDto)">
+            <summary>
+            Updates project by id
+            </summary>
+            <param name="projectId">The identifier of the project</param>
+            <param name="dto">Updating fields</param>
+        </member>
+        <member name="M:GameLocalization.Controllers.v1.ProjectsController.Create(GameLocalization.Application.Dto.Project.ProjectDto)">
+            <summary>
+            
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="T:GameLocalization.Controllers.v1.TableController">
+            <summary>
+            Presentation of all keys, languages and translations.
+            </summary>
+        </member>
+        <member name="M:GameLocalization.Controllers.v1.TableController.#ctor(GameLocalization.Application.Services.Interfaces.ITableService,Microsoft.Extensions.Logging.ILogger{GameLocalization.Controllers.v1.TableController})">
+            <summary>
+            Presentation of all keys, languages and translations.
+            </summary>
+        </member>
+        <member name="M:GameLocalization.Controllers.v1.TableController.Get(System.Guid,System.Int32,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="projectId"></param>
+            <param name="page"></param>
+            <param name="pageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GameLocalization.Controllers.v1.TableController.Search(System.Guid,System.String,System.Int32,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="projectId"></param>
+            <param name="query"></param>
+            <param name="page"></param>
+            <param name="pageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="T:GameLocalization.Controllers.v1.TranslationsController">
+            <summary>
+            Project translations.
+            </summary>
+        </member>
+        <member name="M:GameLocalization.Controllers.v1.TranslationsController.#ctor(GameLocalization.Application.Services.Interfaces.ITranslationsService,Microsoft.Extensions.Logging.ILogger{GameLocalization.Controllers.v1.TranslationsController})">
+            <summary>
+            Project translations.
+            </summary>
+        </member>
+        <member name="M:GameLocalization.Controllers.v1.TranslationsController.Update(System.Guid,GameLocalization.Application.Dto.Translation.CreateOrUpdateTranslationDto)">
+            <summary>
+            
+            </summary>
+            <param name="projectId"></param>
+            <param name="dto"></param>
+            <returns></returns>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+    </members>
+</doc>

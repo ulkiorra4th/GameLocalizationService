@@ -1,0 +1,17 @@
+C:\Users\Рамин\RiderProjects\GameLocalization\GameLocalization.Application\bin\Debug\net8.0\GameLocalization.Application.deps.json
+C:\Users\Рамин\RiderProjects\GameLocalization\GameLocalization.Application\bin\Debug\net8.0\GameLocalization.Application.dll
+C:\Users\Рамин\RiderProjects\GameLocalization\GameLocalization.Application\bin\Debug\net8.0\GameLocalization.Application.pdb
+C:\Users\Рамин\RiderProjects\GameLocalization\GameLocalization.Application\bin\Debug\net8.0\GameLocalization.Domain.dll
+C:\Users\Рамин\RiderProjects\GameLocalization\GameLocalization.Application\bin\Debug\net8.0\GameLocalization.Domain.pdb
+C:\Users\Рамин\RiderProjects\GameLocalization\GameLocalization.Application\obj\Debug\net8.0\GameLocalization.Application.csproj.AssemblyReference.cache
+C:\Users\Рамин\RiderProjects\GameLocalization\GameLocalization.Application\obj\Debug\net8.0\GameLocalization.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Рамин\RiderProjects\GameLocalization\GameLocalization.Application\obj\Debug\net8.0\GameLocalization.Application.AssemblyInfoInputs.cache
+C:\Users\Рамин\RiderProjects\GameLocalization\GameLocalization.Application\obj\Debug\net8.0\GameLocalization.Application.AssemblyInfo.cs
+C:\Users\Рамин\RiderProjects\GameLocalization\GameLocalization.Application\obj\Debug\net8.0\GameLocalization.Application.csproj.CoreCompileInputs.cache
+C:\Users\Рамин\RiderProjects\GameLocalization\GameLocalization.Application\obj\Debug\net8.0\GameLoca.65035CBA.Up2Date
+C:\Users\Рамин\RiderProjects\GameLocalization\GameLocalization.Application\obj\Debug\net8.0\GameLocalization.Application.dll
+C:\Users\Рамин\RiderProjects\GameLocalization\GameLocalization.Application\obj\Debug\net8.0\refint\GameLocalization.Application.dll
+C:\Users\Рамин\RiderProjects\GameLocalization\GameLocalization.Application\obj\Debug\net8.0\GameLocalization.Application.pdb
+C:\Users\Рамин\RiderProjects\GameLocalization\GameLocalization.Application\obj\Debug\net8.0\ref\GameLocalization.Application.dll
+C:\Users\Рамин\RiderProjects\GameLocalization\GameLocalization.Application\bin\Debug\net8.0\GameLocalization.Common.dll
+C:\Users\Рамин\RiderProjects\GameLocalization\GameLocalization.Application\bin\Debug\net8.0\GameLocalization.Common.pdb

@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameLocalization", "GameLocalization\GameLocalization.csproj", "{B80BE7C1-358B-4807-9A73-F96D638507F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{70583403-86CD-4858-87C8-7CF64EF1A74C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameLocalization.Persistence.Postgres", "GameLocalization.Persistence.Postgres\GameLocalization.Persistence.Postgres.csproj", "{A73FD79E-157C-49A2-8E1C-F621747477D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameLocalization.Application", "GameLocalization.Application\GameLocalization.Application.csproj", "{80A82444-696E-4CFA-8FDB-0FB8A84A7091}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameLocalization.Domain", "GameLocalization.Domain\GameLocalization.Domain.csproj", "{A8D4F3F2-E3A0-4AAA-B4AD-FB1221709568}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameLocalization.Infrastructure.Mapping", "GameLocalization.Infrastructure.Mapping\GameLocalization.Infrastructure.Mapping.csproj", "{E6891263-70BE-48B2-9708-243110EF7AA4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E6C2559A-A77A-4905-832D-E1A5408E04C3}"
+	ProjectSection(SolutionItems) = preProject
+		compose.yaml = compose.yaml
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameLocalization.Common", "GameLocalization.Common\GameLocalization.Common.csproj", "{3B32D8F8-0ADF-4881-8562-10668AFBD936}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B80BE7C1-358B-4807-9A73-F96D638507F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B80BE7C1-358B-4807-9A73-F96D638507F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B80BE7C1-358B-4807-9A73-F96D638507F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B80BE7C1-358B-4807-9A73-F96D638507F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A73FD79E-157C-49A2-8E1C-F621747477D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A73FD79E-157C-49A2-8E1C-F621747477D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A73FD79E-157C-49A2-8E1C-F621747477D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A73FD79E-157C-49A2-8E1C-F621747477D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80A82444-696E-4CFA-8FDB-0FB8A84A7091}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80A82444-696E-4CFA-8FDB-0FB8A84A7091}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80A82444-696E-4CFA-8FDB-0FB8A84A7091}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80A82444-696E-4CFA-8FDB-0FB8A84A7091}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8D4F3F2-E3A0-4AAA-B4AD-FB1221709568}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8D4F3F2-E3A0-4AAA-B4AD-FB1221709568}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8D4F3F2-E3A0-4AAA-B4AD-FB1221709568}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8D4F3F2-E3A0-4AAA-B4AD-FB1221709568}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6891263-70BE-48B2-9708-243110EF7AA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6891263-70BE-48B2-9708-243110EF7AA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6891263-70BE-48B2-9708-243110EF7AA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6891263-70BE-48B2-9708-243110EF7AA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B32D8F8-0ADF-4881-8562-10668AFBD936}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B32D8F8-0ADF-4881-8562-10668AFBD936}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B32D8F8-0ADF-4881-8562-10668AFBD936}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B32D8F8-0ADF-4881-8562-10668AFBD936}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B80BE7C1-358B-4807-9A73-F96D638507F0} = {70583403-86CD-4858-87C8-7CF64EF1A74C}
+		{A73FD79E-157C-49A2-8E1C-F621747477D7} = {70583403-86CD-4858-87C8-7CF64EF1A74C}
+		{80A82444-696E-4CFA-8FDB-0FB8A84A7091} = {70583403-86CD-4858-87C8-7CF64EF1A74C}
+		{A8D4F3F2-E3A0-4AAA-B4AD-FB1221709568} = {70583403-86CD-4858-87C8-7CF64EF1A74C}
+		{E6891263-70BE-48B2-9708-243110EF7AA4} = {70583403-86CD-4858-87C8-7CF64EF1A74C}
+		{3B32D8F8-0ADF-4881-8562-10668AFBD936} = {70583403-86CD-4858-87C8-7CF64EF1A74C}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+C:\Users\Рамин\RiderProjects\GameLocalization\GameLocalization.Domain\bin\Debug\net8.0\GameLocalization.Domain.deps.json
+C:\Users\Рамин\RiderProjects\GameLocalization\GameLocalization.Domain\bin\Debug\net8.0\GameLocalization.Domain.dll
+C:\Users\Рамин\RiderProjects\GameLocalization\GameLocalization.Domain\bin\Debug\net8.0\GameLocalization.Domain.pdb
+C:\Users\Рамин\RiderProjects\GameLocalization\GameLocalization.Domain\obj\Debug\net8.0\GameLocalization.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Рамин\RiderProjects\GameLocalization\GameLocalization.Domain\obj\Debug\net8.0\GameLocalization.Domain.AssemblyInfoInputs.cache
+C:\Users\Рамин\RiderProjects\GameLocalization\GameLocalization.Domain\obj\Debug\net8.0\GameLocalization.Domain.AssemblyInfo.cs
+C:\Users\Рамин\RiderProjects\GameLocalization\GameLocalization.Domain\obj\Debug\net8.0\GameLocalization.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Рамин\RiderProjects\GameLocalization\GameLocalization.Domain\obj\Debug\net8.0\GameLocalization.Domain.dll
+C:\Users\Рамин\RiderProjects\GameLocalization\GameLocalization.Domain\obj\Debug\net8.0\refint\GameLocalization.Domain.dll
+C:\Users\Рамин\RiderProjects\GameLocalization\GameLocalization.Domain\obj\Debug\net8.0\GameLocalization.Domain.pdb
+C:\Users\Рамин\RiderProjects\GameLocalization\GameLocalization.Domain\obj\Debug\net8.0\ref\GameLocalization.Domain.dll
+C:\Users\Рамин\RiderProjects\GameLocalization\GameLocalization.Domain\bin\Debug\net8.0\GameLocalization.Common.dll
+C:\Users\Рамин\RiderProjects\GameLocalization\GameLocalization.Domain\bin\Debug\net8.0\GameLocalization.Common.pdb
+C:\Users\Рамин\RiderProjects\GameLocalization\GameLocalization.Domain\obj\Debug\net8.0\GameLocalization.Domain.csproj.AssemblyReference.cache
+C:\Users\Рамин\RiderProjects\GameLocalization\GameLocalization.Domain\obj\Debug\net8.0\GameLoca.236CFAD7.Up2Date

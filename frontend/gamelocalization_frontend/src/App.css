@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+button {
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+    transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+button:hover {
+    border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+    outline: 0px auto -webkit-focus-ring-color;
+}
+
+button:active {
+    transform: scale(0.96);
+}
+
+h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background: white;
+    opacity: 0;
+    background-clip: padding-box;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: white;
+}
+::-webkit-scrollbar-corner {
+    background: transparent;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: white;
+}

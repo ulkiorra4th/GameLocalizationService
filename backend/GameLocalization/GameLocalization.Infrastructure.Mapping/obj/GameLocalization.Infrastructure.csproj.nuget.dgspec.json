@@ -1,0 +1,274 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Рамин\\RiderProjects\\GameLocalization\\GameLocalization.Infrastructure\\GameLocalization.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Рамин\\RiderProjects\\GameLocalization\\GameLocalization.Application\\GameLocalization.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Рамин\\RiderProjects\\GameLocalization\\GameLocalization.Application\\GameLocalization.Application.csproj",
+        "projectName": "GameLocalization.Application",
+        "projectPath": "C:\\Users\\Рамин\\RiderProjects\\GameLocalization\\GameLocalization.Application\\GameLocalization.Application.csproj",
+        "packagesPath": "C:\\Users\\Рамин\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Рамин\\RiderProjects\\GameLocalization\\GameLocalization.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Рамин\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Рамин\\RiderProjects\\GameLocalization\\GameLocalization.Domain\\GameLocalization.Domain.csproj": {
+                "projectPath": "C:\\Users\\Рамин\\RiderProjects\\GameLocalization\\GameLocalization.Domain\\GameLocalization.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.411/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Рамин\\RiderProjects\\GameLocalization\\GameLocalization.Domain\\GameLocalization.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Рамин\\RiderProjects\\GameLocalization\\GameLocalization.Domain\\GameLocalization.Domain.csproj",
+        "projectName": "GameLocalization.Domain",
+        "projectPath": "C:\\Users\\Рамин\\RiderProjects\\GameLocalization\\GameLocalization.Domain\\GameLocalization.Domain.csproj",
+        "packagesPath": "C:\\Users\\Рамин\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Рамин\\RiderProjects\\GameLocalization\\GameLocalization.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Рамин\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.411/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Рамин\\RiderProjects\\GameLocalization\\GameLocalization.Infrastructure\\GameLocalization.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Рамин\\RiderProjects\\GameLocalization\\GameLocalization.Infrastructure\\GameLocalization.Infrastructure.csproj",
+        "projectName": "GameLocalization.Infrastructure",
+        "projectPath": "C:\\Users\\Рамин\\RiderProjects\\GameLocalization\\GameLocalization.Infrastructure\\GameLocalization.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Рамин\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Рамин\\RiderProjects\\GameLocalization\\GameLocalization.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Рамин\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Рамин\\RiderProjects\\GameLocalization\\GameLocalization.Persistence.Postgres\\GameLocalization.Persistence.Postgres.csproj": {
+                "projectPath": "C:\\Users\\Рамин\\RiderProjects\\GameLocalization\\GameLocalization.Persistence.Postgres\\GameLocalization.Persistence.Postgres.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.411/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Рамин\\RiderProjects\\GameLocalization\\GameLocalization.Persistence.Postgres\\GameLocalization.Persistence.Postgres.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Рамин\\RiderProjects\\GameLocalization\\GameLocalization.Persistence.Postgres\\GameLocalization.Persistence.Postgres.csproj",
+        "projectName": "GameLocalization.Persistence.Postgres",
+        "projectPath": "C:\\Users\\Рамин\\RiderProjects\\GameLocalization\\GameLocalization.Persistence.Postgres\\GameLocalization.Persistence.Postgres.csproj",
+        "packagesPath": "C:\\Users\\Рамин\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Рамин\\RiderProjects\\GameLocalization\\GameLocalization.Persistence.Postgres\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Рамин\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Рамин\\RiderProjects\\GameLocalization\\GameLocalization.Application\\GameLocalization.Application.csproj": {
+                "projectPath": "C:\\Users\\Рамин\\RiderProjects\\GameLocalization\\GameLocalization.Application\\GameLocalization.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.17, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.411/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

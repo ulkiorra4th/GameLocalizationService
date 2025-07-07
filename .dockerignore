@@ -1,0 +1,35 @@
+# .NET build artifacts
+bin/
+obj/
+TestResults/
+*.pdb
+
+# Node/React
+node_modules/
+build/
+dist/
+
+# Environment files
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+.git
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Coverage
+coverage/ 

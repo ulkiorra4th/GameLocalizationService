@@ -1,0 +1,20 @@
+# This is a generated file. Not intended for manual editing.
+version: "3.9"
+services:
+  gamelocalization:
+    build:
+      context: "C:\\Users\\Рамин\\RiderProjects\\GameLocalization"
+      dockerfile: "Dockerfile"
+      target: "build"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net8.0/GameLocalization.dll"
+    environment: {}
+    image: "gamelocalization:dev"
+    ports: []
+    volumes:
+    - "C:\\Users\\Рамин\\RiderProjects\\GameLocalization\\GameLocalization:/app:rw"
+    - "C:\\Users\\Рамин\\RiderProjects\\GameLocalization:/src:rw"
+    - "C:\\Users\\Рамин\\.nuget\\packages:/root/.nuget/packages"
+    working_dir: "/app"
