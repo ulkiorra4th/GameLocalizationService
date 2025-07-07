@@ -34,7 +34,7 @@ GameLocalization/
 
 ## ER-model
 
-
+![game_cloud_ER drawio](https://github.com/user-attachments/assets/2a17da6d-ea45-4e25-8a24-6c521f8d0a6a)
 
 ---
 
